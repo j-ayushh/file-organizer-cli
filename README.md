@@ -1,17 +1,29 @@
 # 📂 File Organizer CLI Tool
 
-This is a simple Python command-line tool that organizes files in a folder into subfolders based on file type (like PDFs, images, or code files).
+This is a Python command-line tool that automatically organizes files on your **Desktop** into categorized folders like `documents`, `images`, and `videos`, based on their file extensions.
 
 ## 💡 Why I Built It
-I made this to practice Python scripting and solve a small real-life problem — keeping my folders clean and sorted automatically.
+I created this project to practice Python scripting and automate the task of organizing messy files on my desktop.
 
-## 🚀 How to Run
-1. Make sure Python is installed.
-2. Open terminal, go to the folder, and run:
-```bash
-python organizer.py
-```
+## 🚀 How It Works
+1. The script looks at your `Desktop` folder.
+2. It moves files like `.pdf`, `.jpg`, `.mp4` into folders like `documents`, `images`, or `videos`.
+3. Any unknown extensions or subfolders are skipped.
+
+## 🧾 Supported Extensions
+
+| Extension | Moved to Folder |
+|-----------|------------------|
+| .pdf, .pptx, .docx | documents |
+| .jpg, .jpeg         | images    |
+| .mov, .mp4          | videos    |
 
 ## 🧰 Tech Stack
 - Python 3.x
-- Standard Libraries: `os`, `shutil`
+- Modules used: `os`, `shutil`
+
+## ▶️ How to Run
+1. Open terminal in the folder containing `main.py`.
+2. Run:
+```bash
+python main.py
