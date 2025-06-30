@@ -11,17 +11,6 @@ I made this to practice Python scripting and solve a small real-life problem —
 ```bash
 python organizer.py
 ```
-##Before
-Downloads/
-├── image.png
-├── file.pdf
-├── script.py
-
-##After
-Downloads/
-├── Images/image.png
-├── Documents/file.pdf
-├── Code/script.py
 
 ## 🧰 Tech Stack
 - Python 3.x
